@@ -1,0 +1,4 @@
+#!/bin/sh
+
+PATH="/usr/local/opt/node@14/bin:$PATH"
+npx --no-install commitlint --edit $1
