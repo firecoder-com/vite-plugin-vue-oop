@@ -10,19 +10,6 @@ of inheritance and
 
 
 
-Installation
-------------
-
-At the moment, this package is not yet published to the public but only available on the "GitHub Pages" NPM repository
-of  this project. Therefore, you need to create a new or reuse an existing `.npmrc` file inside your project and
-add the following content
-(see [GitHub pages - installing a package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package)).
-
-```
-@firecoder-com:registry=https://npm.pkg.github.com
-```
-
-
 Usage
 -----
 
