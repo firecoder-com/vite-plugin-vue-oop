@@ -9,9 +9,13 @@
     "vue",
     "typescript"
   ],
-  "main": "dist/vite-plugin-vue-oop.js",
-  "module": "dist/vite-plugin-vue-oop.js",
+  "main": "./dist/vite-plugin-vue-oop.cjs",
+  "module": "./dist/vite-plugin-vue-oop.js",
   "types": "dist/types/index.d.ts",
+  "exports": {
+    "import": "./dist/vite-plugin-vue-oop.js",
+    "require": "./dist/vite-plugin-vue-oop.cjs"
+  },
   "files": [
     "src",
     "dist"

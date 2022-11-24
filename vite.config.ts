@@ -23,7 +23,7 @@ export const BaseConfig: UserConfigExport = {
     build: {
         lib: {
             entry: path.resolve(__dirname, "src/index.ts"),
-            formats: ["es"],
+            formats: ["cjs", "es"],
         },
         rollupOptions: {
             external: [
